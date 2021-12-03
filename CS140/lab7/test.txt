@@ -1,0 +1,2 @@
+PRIZE cancun 10000 0 All expense-paid vacation to Cancun 
+ADD_USER jisber 0 Jacob Isber 

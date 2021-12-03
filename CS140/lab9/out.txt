@@ -1,0 +1,252 @@
+Shapes
+1
+11
+2
+0 0 Index: 0 test
+11
+00
+Apply is true
+0 0 Index: 1 test
+01
+10
+Apply is true
+base case
+before reapply
+01
+10
+reapplying shape 1
+11
+00
+
+Apply Failed
+Index: 1
+i: 0
+j: 0
+
+0 1 Index: 1 test
+10
+01
+Apply is true
+base case
+before reapply
+10
+01
+reapplying shape 1
+11
+00
+
+Apply Failed
+Index: 1
+i: 0
+j: 1
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 0
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 1
+
+before reapply
+11
+11
+reapplying shape 0
+01
+11
+
+Apply Failed
+Index: 0
+i: 0
+j: 0
+
+0 1 Index: 0 test
+00
+11
+Apply is true
+0 0 Index: 1 test
+10
+01
+Apply is true
+base case
+before reapply
+10
+01
+reapplying shape 1
+00
+11
+
+Apply Failed
+Index: 1
+i: 0
+j: 0
+
+0 1 Index: 1 test
+01
+10
+Apply is true
+base case
+before reapply
+01
+10
+reapplying shape 1
+00
+11
+
+Apply Failed
+Index: 1
+i: 0
+j: 1
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 0
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 1
+
+before reapply
+00
+00
+reapplying shape 0
+01
+00
+
+Apply Failed
+Index: 0
+i: 0
+j: 1
+
+1 0 Index: 0 test
+01
+10
+Apply is true
+0 0 Index: 1 test
+11
+00
+Apply is true
+base case
+before reapply
+11
+00
+reapplying shape 1
+01
+10
+
+Apply Failed
+Index: 1
+i: 0
+j: 0
+
+0 1 Index: 1 test
+00
+11
+Apply is true
+base case
+before reapply
+00
+11
+reapplying shape 1
+01
+10
+
+Apply Failed
+Index: 1
+i: 0
+j: 1
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 0
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 1
+
+before reapply
+01
+01
+reapplying shape 0
+01
+11
+
+Apply Failed
+Index: 0
+i: 1
+j: 0
+
+1 1 Index: 0 test
+01
+10
+Apply is true
+0 0 Index: 1 test
+11
+00
+Apply is true
+base case
+before reapply
+11
+00
+reapplying shape 1
+01
+10
+
+Apply Failed
+Index: 1
+i: 0
+j: 0
+
+0 1 Index: 1 test
+00
+11
+Apply is true
+base case
+before reapply
+00
+11
+reapplying shape 1
+01
+10
+
+Apply Failed
+Index: 1
+i: 0
+j: 1
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 0
+
+
+Apply Failed
+Index: 1
+i: 1
+j: 1
+
+before reapply
+01
+01
+reapplying shape 0
+01
+00
+
+Apply Failed
+Index: 0
+i: 1
+j: 1
+

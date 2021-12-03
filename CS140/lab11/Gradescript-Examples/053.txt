@@ -1,0 +1,148 @@
+INSERT Savannah-Bug 896-439-5572 729-21-1655
+IS_AVL
+INSERT Abigail-Enzymatic 310-127-0571 868-19-3307
+IS_AVL
+INSERT Brooklyn-Compositor 424-795-7830 746-54-9468
+IS_AVL
+INSERT Lilly-Molly-Funny 524-640-7743 824-00-1340
+IS_AVL
+INSERT Lucas-Invasive-Esq 200-828-0960 138-76-9220
+IS_AVL
+NSERT Savannah-Bug 896-439-5572 729-21-1655
+  2 IS_AVL
+    3 INSERT Abigail-Enzymatic 310-127-0571 868-19-3307
+	  4 IS_AVL
+	    5 INSERT Brooklyn-Compositor 424-795-7830 746-54-9468
+		  6 IS_AVL
+		    7 INSERT Lilly-Molly-Funny 524-640-7743 824-00-1340
+			  8 IS_AVL
+			    9 INSERT Lucas-Invasive-Esq 200-828-0960 138-76-9220
+				 10 IS_AVL
+				  11 INSERT Ian-Honda 241-025-2338 208-68-9824
+				   12 IS_AVL
+				    13 INSERT Audrey-Langmuir 959-039-4035 784-82-3714
+					 14 IS_AVL
+					  15 INSERT Luke 669-764-1770 223-84-1492
+					   16 IS_AVL
+					    17 INSERT Layla-Pinochle 645-332-5041 307-03-5241
+						 18 IS_AVL
+						  19 INSERT Tyler-Inflammation 171-055-7842 185-01-5543
+						   20 IS_AVL
+						    21 FIND Audrey-Langmuir
+							 22 FIND Abigail-Enzymatic
+							  23 PRINT
+							   24 PRINT
+							    25 FIND Mia-Heresy
+								 26 PRINT
+								  27 PRINT_COPY
+								   28 IS_AVL
+								    29 PRINT_COPY
+									 30 IS_AVL
+									  31 PRINT_COPY
+									   32 IS_AVL
+									    33 ASSIGNMENT
+										 34 IS_AVL
+										  35 FIND Lilly-Molly-Funny
+										   36 INSERT Jordan-Drown 647-082-3218 033-06-1056
+										    37 IS_AVL
+											 38 VALS
+											  39 FIND Ian-Honda
+											   40 FIND Ian-Honda
+											    41 VALS
+												 42 PRINT_COPY
+												  43 IS_AVL
+												   44 PRINT_COPY
+												    45 IS_AVL
+													 46 INSERT Ryan-Archdiocese 122-327-0207 562-56-4852
+													  47 IS_AVL
+													   48 INSERT Hannah-Anticipatory 413-203-0209 680-23-5735
+													    49 IS_AVL
+														 50 PRINT_COPY
+														  51 IS_AVL
+														   52 VALS
+														    53 VALS
+															 54 PRINT_COPY
+															  55 IS_AVL
+															   56 FIND Abigail-Enzymatic
+															    57 FIND Audrey-Anticipate
+																 58 SIZE
+																  59 FIND Luke
+																   60 PRINT_COPY
+																    61 IS_AVL
+																	 62 PRINT_COPY
+																	  63 IS_AVL
+																	   64 SIZE
+																	    65 PRINT
+																		 66 INSERT Isabelle-Platonist 440-128-1500 154-95-3955
+																		  67 IS_AVL
+																		   68 PRINT
+																		    69 INSERT Chase-Prior 087-650-1945 314-12-8379
+																			 70 IS_AVL
+																			  71 VALS
+																			   72 ASSIGNMENT
+																			    73 IS_AVL
+																				 74 PRINT
+																				 INSERT Ian-Honda 241-025-2338 208-68-9824
+IS_AVL
+INSERT Audrey-Langmuir 959-039-4035 784-82-3714
+IS_AVL
+INSERT Luke 669-764-1770 223-84-1492
+IS_AVL
+INSERT Layla-Pinochle 645-332-5041 307-03-5241
+IS_AVL
+INSERT Tyler-Inflammation 171-055-7842 185-01-5543
+IS_AVL
+FIND Audrey-Langmuir
+FIND Abigail-Enzymatic
+PRINT
+PRINT
+FIND Mia-Heresy
+PRINT
+PRINT_COPY
+IS_AVL
+PRINT_COPY
+IS_AVL
+PRINT_COPY
+IS_AVL
+ASSIGNMENT
+IS_AVL
+FIND Lilly-Molly-Funny
+INSERT Jordan-Drown 647-082-3218 033-06-1056
+IS_AVL
+VALS
+FIND Ian-Honda
+FIND Ian-Honda
+VALS
+PRINT_COPY
+IS_AVL
+PRINT_COPY
+IS_AVL
+INSERT Ryan-Archdiocese 122-327-0207 562-56-4852
+IS_AVL
+INSERT Hannah-Anticipatory 413-203-0209 680-23-5735
+IS_AVL
+PRINT_COPY
+IS_AVL
+VALS
+VALS
+PRINT_COPY
+IS_AVL
+FIND Abigail-Enzymatic
+FIND Audrey-Anticipate
+SIZE
+FIND Luke
+PRINT_COPY
+IS_AVL
+PRINT_COPY
+IS_AVL
+SIZE
+PRINT
+INSERT Isabelle-Platonist 440-128-1500 154-95-3955
+IS_AVL
+PRINT
+INSERT Chase-Prior 087-650-1945 314-12-8379
+IS_AVL
+VALS
+ASSIGNMENT
+IS_AVL
+PRINT

@@ -1,0 +1,85 @@
+//Jacob Isber
+//Lab9 part B, Shape Shifter
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+class Shifter {
+
+	public:
+
+	bool Read_Grid_And_Shapes(int argc, const char *argv[]);
+	
+	bool Apply_Shape(int index, int r, int c);
+
+	bool Find_Solution(int index);
+
+	void Print_Solution() const;
+
+	protected:
+	
+	vector <string> Grid;                   
+	vector < vector <string> > Shapes;     
+	vector <int> Solution_Rows;            
+	vector <int> Solution_Cols;            
+
+};
+
+bool Shifter::Read_Grid_And_Shapes(int argc, const char *argv[]) {
+
+	string line;
+	
+	for(int i = 1; i < argc; i++) {
+		Grid.push_back(argv[i]);
+	}
+	
+	for(size_t i = 0; i < Grid.size(); i++) {	
+		if(Grid[0].size() != Grid[i].size()) {
+			return false;
+		}
+	}
+
+	for(size_t i = 0; i < Grid.size(); i++) {
+		for(size_t j = 0; j < Grid[i].size(); j++) {
+			if(Grid[i][j] != '0' && Grid[i][j] != '1') {
+				return false;
+			}
+		}
+	}
+	
+	int counter = 0;
+	while(getline(cin, line)) {
+			Shapes[counter].push_back(line);
+			counter++;
+	}
+	
+
+	cout << "The Grid:" << endl;
+	cout << endl;
+	for(size_t i = 0; i < Grid.size(); i++) {
+		for(size_t j = 0; j < Grid[i].size(); j++) {
+			cout << Grid[i][j];	
+		}
+		cout << endl;
+	}
+	
+	for(size_t i = 0; i < Shapes.size(); i++) {
+		for(size_t j = 0; j < Shapes[i].size(); j++) {
+			cout << Shapes[i][j];
+		}
+		cout << endl;
+	}
+	
+
+	return true;
+}
+
+
+int main(int argc, const char *argv[]) {
+	Shifter shifter;
+
+		shifter.Read_Grid_And_Shapes(argc, argv);
+
+	return 0;
+}
